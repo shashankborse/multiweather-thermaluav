@@ -118,8 +118,8 @@ If you use this dataset in your research, please cite:
   title   = {MultiWeather-ThermalUAV: A Scene-Consistent Multi-Weather 
              Multi-Modal Dataset for UAV Semantic Segmentation},
   author  = {Borse, Shashank Dilip},
-  journal = {Journal of Machine Learning Research},
-  year    = {2025}
+  journal = {Data-centric Machine Learning Research},
+  year    = {2026}
 }
 ```
 
