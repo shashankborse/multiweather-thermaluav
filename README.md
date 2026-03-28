@@ -72,6 +72,16 @@ python3 generate_dataset.py
 Place the `.h5` files (`suburbA.h5`, `suburbB.h5`, `urbA.h5`, `urbB.h5`) in the 
 same directory before running.
 
+### Assemble Final Dataset
+
+After generation, run the assembly script to create the structured final dataset:
+```bash
+python3 rebuild_final_dataset.py
+```
+
+This reorganises the generated data into train, val, and test splits with 
+consistent sequential naming across all weather conditions and modalities.
+
 ### Run Experiments
 
 Open `experiments.ipynb` in Jupyter and run cells top to bottom. The notebook 
@@ -114,7 +124,7 @@ adaptation.
 If you use this dataset in your research, please cite:
 
 ```bibtex
-@article{borse2025multiweather,
+@article{borse2026multiweather,
   title   = {MultiWeather-ThermalUAV: A Scene-Consistent Multi-Weather 
              Multi-Modal Dataset for UAV Semantic Segmentation},
   author  = {Borse, Shashank Dilip},
