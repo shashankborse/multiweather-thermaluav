@@ -1,0 +1,7 @@
+model,modality,clear,fog,rain,snow
+unet,rgb,0.6067,0.372,0.3324,0.5843
+lraspp,rgb,0.5511,0.3845,0.4245,0.543
+unet,thermal,0.5573,0.4252,0.5321,0.5551
+lraspp,thermal,0.524,0.4588,0.5153,0.5236
+unet,fusion,0.7206,0.2385,0.2961,0.4793
+lraspp,fusion,0.638,0.1885,0.3039,0.5577
