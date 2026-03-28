@@ -13,5 +13,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Results
-experiment_results/
+# Results - exclude checkpoints and interim only
+experiment_results/*.pt
+experiment_results/results_interim.csv
